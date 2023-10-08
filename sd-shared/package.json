@@ -1,0 +1,22 @@
+{
+  "name": "ngx-sdcores/sd-shared",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/forms": "~16.2.0",
+    "@angular/platform-browser": "~16.2.0",
+    "rxjs": "~7.8.0",
+    "ngx-bootstrap": "^11.0.2",
+    "ngx-image-cropper": "^7.0.3",
+    "ngx-spinner": "^16.0.2",
+    "@angular/router": "~16.2.0",
+    "@ng-select/ng-select": "^11.1.1",
+    "@ngx-translate/core": "^15.0.0",
+    "ngx-sdcores/sd-snotify": "^16.2.8"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
