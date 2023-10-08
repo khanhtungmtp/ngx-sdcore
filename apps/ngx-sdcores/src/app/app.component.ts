@@ -14,7 +14,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent implements OnInit {
   style = 'material';
-  title = 'Snotify title!';
+  title = 'ngx-sdcores';
   body = 'Lorem ipsum dolor sit amet!';
   timeout = 3000;
   position: SnotifyPosition = SnotifyPosition.rightBottom;
@@ -29,7 +29,6 @@ export class AppComponent implements OnInit {
   titleMaxLength = 15;
   bodyMaxLength = 80;
   closeOnBackGroundClick = false;
-
   constructor(private snotifyService: SnotifyService, private spinnerService: NgxSpinnerService) {
 
   }
