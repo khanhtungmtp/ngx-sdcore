@@ -3,5 +3,9 @@
   "dest": "../dist/sd-sdcore",
   "lib": {
     "entryFile": "src/index.ts"
-  }
+  },
+  "assets": [
+    "src/favicon.ico",
+    "assets"
+  ]
 }
