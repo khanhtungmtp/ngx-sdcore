@@ -9,8 +9,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { NgxTrimInputDirective } from 'ngx-sdcores/sd-shared';
-import { SnotifyModule, ToastDefaults, SnotifyService } from 'ngx-sdcores/sd-snotify';
+import { NgxTrimInputDirective } from 'ngx-sdcore';
+import { SnotifyModule, ToastDefaults, SnotifyService } from 'ngx-sdcore';
 import { NgxSpinnerModule } from 'ngx-spinner';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');

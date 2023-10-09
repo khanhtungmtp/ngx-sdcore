@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'sd-snotify',
+  displayName: 'sd-sdcore',
   preset: '../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../coverage/sd-snotify',
+  coverageDirectory: '../coverage/sd-sdcore',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

@@ -2,8 +2,8 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @angular-eslint/component-selector */
 import { Component, OnInit } from '@angular/core';
-import { SnotifyPosition, SnotifyService, SnotifyToastConfig } from 'ngx-sdcores/sd-snotify';
-import { InjectBase } from 'ngx-sdcores/sd-shared';
+import { SnotifyPosition, SnotifyService, SnotifyToastConfig } from 'ngx-sdcore';
+import { InjectBase } from 'ngx-sdcore';
 import { NgxSpinner, NgxSpinnerService } from 'ngx-spinner';
 import { Observable } from 'rxjs';
 

@@ -2,13 +2,13 @@
 @import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 .material {
-    @import "sd-snotify/styles/material";
+    @import "sd-sdcore/src/lib/sd-snotify/styles/material";
   }
   .simple {
-    @import "sd-snotify/styles/simple";
+    @import "sd-sdcore/src/lib/sd-snotify/styles/simple";
   }
   .dark {
-    @import "sd-snotify/styles/dark";
+    @import "sd-sdcore/src/lib/sd-snotify/styles/dark";
   }
 
   .snotify-icon {

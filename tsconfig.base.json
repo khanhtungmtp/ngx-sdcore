@@ -30,6 +30,9 @@
       "@utilities/*": [
         "sd-shared/src/lib/utilities/*"
       ],
+      "ngx-sdcore": [
+        "sd-sdcore/src/index.ts"
+      ],
       "ngx-sdcores/sd-shared": [
         "sd-shared/src/index.ts"
       ],

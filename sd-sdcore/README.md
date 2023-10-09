@@ -1,7 +1,7 @@
-# sd-shared
+# sd-sdcore
 
 This library was generated with [Nx](https://nx.dev).
 
 ## Running unit tests
 
-Run `nx test sd-shared` to execute the unit tests.
+Run `nx test sd-sdcore` to execute the unit tests.
